@@ -2,10 +2,10 @@
 
 # Primeiro número - read-host significa para o usuário inserir um valor
 # variáveis sempre com $ na antes
-$num1 = Read-Host "Digite o primeiro numero"
+$num1 = Read-Host "Digite o primeiro número"
 
 # Solicita o segundo número
-$num2 = Read-Host "Digite o segundo numero"
+$num2 = Read-Host "Digite o segundo número"
 
 # Solicita a operação
 $operacao = Read-Host "Escolha a operação (+, -, *, /)"
@@ -35,3 +35,4 @@ switch ($operacao) {
 
 # Mostra o resultado
 Write-Host "Resultado: $resultado"
+
