@@ -1,11 +1,12 @@
-# Calculadora básica em PowerShell
+do {
+# Calculadora em PowerShell
 
 # Primeiro número - read-host significa para o usuário inserir um valor
 # variáveis sempre com $ na antes
-$num1 = Read-Host "Digite o primeiro número"
+$num1 = Read-Host "Digite o primeiro numero"
 
 # Solicita o segundo número
-$num2 = Read-Host "Digite o segundo número"
+$num2 = Read-Host "Digite o segundo numero"
 
 # Solicita a operação
 $operacao = Read-Host "Escolha a operação (+, -, *, /)"
@@ -34,5 +35,10 @@ switch ($operacao) {
 # -ne significa "not equal"
 
 # Mostra o resultado
-Write-Host "Resultado: $resultado"
+Write-Host "=========================" -ForegroundColor Blue
+Write-Host "      RESULTADO: $resultado" -ForegroundColor Blue
+Write-Host "=========================" -ForegroundColor Blue
 
+# Loop continuação
+    $continuar = Read-Host "Deseja continuar? (s/n)"
+} while ($continuar -ne "n")
