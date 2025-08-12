@@ -1,8 +1,15 @@
-# Calculadora Simples em Powershell.
+<h1 align="left">🐹 Calculadora Simples em Powershell.</h1>
 
-Dia 1 praticando scripts em powershell do 0, criação básica com funções iniciais.
+###
 
-07.08 - Adicionado cores e uso da função de loops (while)
+<p align="left">1° Script para treino de Powershell Coding - Calculadora</p>
 
-<img alt='gif' height='500' width='500' align='center' src='https://64.media.tumblr.com/d6393cbe104a7afb2c85454c16beb528/63e26aba0f18e247-29/s2048x3072/7bd03c6fb7fa0e465d4d684d0ce95b201296290a.gifv'/>
+###
 
+<h2 align="left">🐹 FUNÇÕES USADAS</h2>
+
+###
+
+<p align="left">⚪ Read-Host | Write-Host<br>⚪ Switch<br>⚪ While<br>⚪ Cores <br>⚪-ForegroundColor</p>
+
+###
